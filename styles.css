@@ -45,3 +45,105 @@ span {
         margin-top: .5rem;
     } 
 }
+
+/* tarjeta-azul */
+
+.tarjeta-azul {
+  position: relative;
+  background: white;
+  border: none;
+  z-index: 1;
+}
+.tarjeta-azul:after {
+  position:absolute;
+  content: "";
+  width: 0;
+  height:100%;
+  top:0;
+  right: 0;
+  z-index: -1;
+  background-color: #0d6efd;
+  border-radius: 5px;
+   box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+   7px 7px 20px 0px rgba(0,0,0,.1),
+   4px 4px 5px 0px rgba(0,0,0,.1);
+  transition: all 0.3s ease;
+}
+.tarjeta-azul:hover {
+  color: #fff;
+}
+.tarjeta-azul:hover:after {
+  left: 0;
+  width: 100%;
+}
+.tarjeta-azul:active {
+  top: 2px;
+}
+
+/* tarjeta verde */
+
+.tarjeta-verde {
+  position: relative;
+  background: white;
+  border: none;
+  z-index: 1;
+}
+.tarjeta-verde:after {
+  position:absolute;
+  content: "";
+  width: 0;
+  height:100%;
+  top:0;
+  right: 0;
+  z-index: -1;
+  background-color: #198754;
+  border-radius: 5px;
+   box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+   7px 7px 20px 0px rgba(0,0,0,.1),
+   4px 4px 5px 0px rgba(0,0,0,.1);
+  transition: all 0.3s ease;
+}
+.tarjeta-verde:hover {
+  color: #fff;
+}
+.tarjeta-verde:hover:after {
+  left: 0;
+  width: 100%;
+}
+.tarjeta-verde:active {
+  top: 2px;
+}
+
+/* tarjeta-amarilla */
+
+.tarjeta-amarilla {
+  position: relative;
+  background: white;
+  border: none;
+  z-index: 1;
+}
+.tarjeta-amarilla:after {
+  position:absolute;
+  content: "";
+  width: 0;
+  height:100%;
+  top:0;
+  right: 0;
+  z-index: -1;
+  background-color: #ffc107;
+  border-radius: 5px;
+   box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+   7px 7px 20px 0px rgba(0,0,0,.1),
+   4px 4px 5px 0px rgba(0,0,0,.1);
+  transition: all 0.3s ease;
+}
+.tarjeta-amarilla:hover {
+  color: #fff;
+}
+.tarjeta-amarilla:hover:after {
+  left: 0;
+  width: 100%;
+}
+.tarjeta-amarilla:active {
+  top: 2px;
+};
