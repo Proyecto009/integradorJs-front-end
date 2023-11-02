@@ -1,0 +1,47 @@
+/*estilos geerales*/
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/*seccion formulario*/
+section {
+    margin-top: 20px;
+}
+.col-group{
+    margin: 10px 2px;
+    padding: 2.5rem 1rem;
+    text-align: center;
+    align-items: center;
+    justify-content: space-around;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 540px) {
+    .row-boxes {
+      flex-direction: column;
+      margin: .5rem 1rem;
+    }
+}
+
+h4 {
+    font-weight:bolder;
+}
+
+p {
+    font-size:medium;
+}
+
+span {
+    font-size: x-small;
+}
+
+@media screen and (max-width: 720px) {
+    .buttons {
+      flex-direction: column;
+    }
+    .btn {
+        margin-top: .5rem;
+    } 
+}
